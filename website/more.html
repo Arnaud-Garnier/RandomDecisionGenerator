@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
 
-	<title>RandomDecisionGenerator</title>
+	<title>Learn more</title>
 
 	<!-- Behavioral Meta Data -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -49,7 +49,7 @@ html,body{
 	background-color:transparent;
 	width:550px;
 	height:90px;
-	top:35%;
+	top:50%;
 	margin-top:-45px;
 	left:50%;
 	margin-left:-275px;
@@ -230,6 +230,7 @@ a:hover {
 
 
 ul {
+
     font-family: 'open_sansregular';
     list-style-type: none;
     margin: 0;
@@ -250,6 +251,28 @@ li a {
     text-decoration: none;
 }
 
+#lisa-ul {
+    font-family: 'open_sansregular';
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+
+	background-color:#444549;
+    //overflow: hidden;	
+}
+
+#lisa-li {
+    list-style-type: square;
+	background-color:#444549;
+    float:left;
+}
+
+#lisa-div {
+    padding : 0% 10% 10% 10%;
+    font-family: 'open_sansregular';
+	background-color:#444549;
+}
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
@@ -261,55 +284,43 @@ li a:hover {
 <body>
 <ul>
 	<li><a href="index.html">Presentation</a></li>
-	<li><a href="more.html">Learn more</a></li>
+	<li><a href="">Learn more</a></li>
 	<li><a href="">About us</a></li>
 </ul>
-<br />
-<br />
-<br />
 
 <!-- PART 2 - TITLE -->
 
-<div id="A2">
-    
-    <div id="text-2" class="wow fadeIn" data-wow-offset="10"><h2>Random Decision Generator : <br/ ><i>No need to make choices anymore !</i></h2></div>
-    
-</div>
 
-<div id="illustr"><img src="IMG/illustration.jpg"/></div>
-<div><a href="" class="button">Back This Project</a></div>
 <div id="A5b"> 
+    <div id="wrapper-A5b">
+        <div id="left-A5b-text-post-1"><strong>About this project</strong></div>
+        <div class="A5b-calage"></div>
+        </div>   
+    </div>
+    <div id="lisa-div">
+        Everyday, millions of people loose time making decisions.
+        It's a fact : a recent study showed that people loose about 5% of their time, a day, making decisions.
+        Brought to a lifetime, we will all loose thousands of hours only thinking about decisions we have to make.
+        <br /><br />
+        It's a serious issue. Our project is to bring awareness, but also to offer a solution.<br /><br />
+        
+        The solution is simple : why not let randomness make the decisions for you, while you can relax ?<br /><br />
+        
+        Thanks to our app, you'll only have to enter the decision you need to make, and you will instantly know what you should do.<br /><br />
+        
+        Here is a list of the undeniable advantages of our solution :<br /><br />
+        
+        <ul id="lisa-ul">
+            <li id="lisa-li">   - No waste of time.</li><br />
+            <li id="lisa-li">   - Statistically, you could make the right decisions.</li><br />
+            <li id="lisa-li">   - You can blame the app for all the bad decisions you would have made anyway.</li><br />
+        </ul><br />
+        
+        
+    </div>
  
-	<div id="wrapper-A5b">
-        <div id="wrapper-A5b-part-left">
-        	<div id="A5b-left" class="wow flipInX" data-wow-offset="10">
-    			<div id="left-A5b-text-post">4</div>
-            	<div id="left-A5b-line-post"></div>
-            	<div id="left-A5b-line2-post"></div>
-				<div id="left-A5b-text-post-1"><strong>backers</strong></div>
-        	</div>
-        </div>
-        
-        <div id="wrapper-A5b-part-mid">
-        	<div id="A5b-middle" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.2s">
-    			<div id="mid-A5b-text-post">$0</div>
-            	<div id="mid-A5b-line-post"></div>
-            	<div id="mid-A5b-line2-post"></div>
-				<div id="mid-A5b-text-post-1"><strong>pledged of $100,000 goal</strong></div>
-        	</div>
-        </div>
-        
-        <div id="wrapper-A5b-part-right">
-        	<div id="A5b-right" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.4s">
-    			<div id="right-A5b-text-post">365</div>
-            	<div id="right-A5b-line-post"></div>
-            	<div id="right-A5b-line2-post"></div>
-				<div id="right-A5b-text-post-1"><strong>days to go</strong></div>
-           </div>
-        </div>
-        
-    <div class="A5b-calage"></div>
-    
+
+
 </div>
 
 <!-- COPYRIGHT -->
