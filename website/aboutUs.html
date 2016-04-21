@@ -9,6 +9,7 @@
 	<!-- Behavioral Meta Data -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      
     <link rel="icon" type="image/png" href="IMG/small-logo-01.png" />
     <link href="CSS/spore-font.css" rel="stylesheet" />
     <link href="CSS/animate.css" rel="stylesheet" />
@@ -269,6 +270,7 @@ li a {
 
 #lisa-div {
     padding : 0% 10% 10% 10%;
+    height : 500px;
     font-family: 'open_sansregular';
 	background-color:#444549;
 }
@@ -276,6 +278,21 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+
+.cropcircle {
+
+    border-radius: 100%;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.droite {
+    float: right;
+}
+
+.gauche {
+    float: left;
 }
 
 </style>
@@ -291,15 +308,35 @@ li a:hover {
 <!-- PART 2 - TITLE -->
 
 
-<div id="A5b"> 
+<div id="A5b">
     <div id="wrapper-A5b">
         <div id="left-A5b-text-post-1"><strong>About the team</strong></div>
         <div class="A5b-calage"></div>
-        </div>   
+        </div>
     </div>
     <div id="lisa-div">
-
         
+        <div class="gauche">
+            <br /><br /><img src="GallerieArt/simon.jpg" class="cropcircle" height="150"><br /><br />
+            <strong>Simon PARIS</strong>
+            <br />Research & Development : algorithms and complexity
+            
+            <br /><br /><img src="GallerieArt/lisa.jpg" class="cropcircle" height="150"><br /><br />
+            <strong>Lisa JOANNO</strong>
+            <br />Research & Development : production and communication
+        </div>
+        
+        <div class="droite">
+            <br /><br /><img src="GallerieArt/arnaud.jpg" class="cropcircle" height="150"><br /><br />
+            <strong>Arnaud GARNIER</strong>
+            <br />Research & Development : website
+            
+            <br /><br /><img src="GallerieArt/greg.jpg" class="cropcircle" height="150"><br /><br />
+            <strong>Grégory ROBIN</strong>
+            <br />Research & Development : additional features
+        </div>
+        
+
         
     </div>
  
